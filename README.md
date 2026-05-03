@@ -50,6 +50,7 @@ The dataset contains:
 - **Sampling frequency:** `256 Hz`
 - **EEG channels:** 16 channels  
   `FC5, FC1, FCz, FC2, FC6, C5, C3, C1, Cz, C2, C4, C6, CP5, CP1, CP2, CP6`
+  ![montage](Images/montage.png)
 - **Main epoch window:** `2.0 s` to `8.0 s`
 - **Baseline interval:** `2.0 s` to `2.5 s`
 - **Broad motor-imagery band:** `8–30 Hz`
@@ -134,9 +135,8 @@ The table below is sorted in descending order by **mean unseen test accuracy**.
 
 The repository can include the following line graph to compare all methods by mean unseen test accuracy:
 
-```markdown
-![Method accuracy line graph](assets/figures/method_accuracy_line_graph.png)
-```
+
+![Method accuracy line graph](Images/method_accuracy_line_graph.png)
 
 The data used for the line graph is:
 
@@ -195,9 +195,9 @@ For **FBCSP + LDA**, the mean test accuracy stayed almost the same as broad-band
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FB-TS-LDA full accuracy bar graph](assets/bargraphs/fb-ts-lda-accuracy-bar-graph.png)
-```
+
+![FB-TS-LDA full accuracy bar graph](Tangent%20Space%20linear%20discriminent%20Analysis/IMAGES/FBTS-LDA-OVERALL-ACCURACY.png)
+
 
 ### Accuracy table
 
@@ -258,9 +258,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FB-FgMDM full accuracy bar graph](assets/bargraphs/fb-fgmdm-accuracy-bar-graph.png)
-```
+
+![FB-FgMDM full accuracy bar graph](Minimum%20Distance%20To%20mean/IMAGES/FB-FGMDM-OVERALL-ACCURACIES.png)
+
 
 ### Accuracy table
 
@@ -321,9 +321,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FGMDM full accuracy bar graph](assets/bargraphs/fgmdm-accuracy-bar-graph.png)
-```
+
+![FGMDM full accuracy bar graph](Minimum%20Distance%20To%20mean/IMAGES/FGMDM-OVERALL-ACCURACIES.png)
+
 
 ### Accuracy table
 
@@ -382,9 +382,8 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![TS-LDA full accuracy bar graph](assets/bargraphs/ts-lda-accuracy-bar-graph.png)
-```
+![TS-LDA full accuracy bar graph](Tangent%20Space%20linear%20discriminent%20Analysis/IMAGES/TS-LDA-OVERALL-ACCURACY.png)
+
 
 ### Accuracy table
 
@@ -443,9 +442,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![CSP + LDA full accuracy bar graph](assets/bargraphs/csp-lda-accuracy-bar-graph.png)
-```
+
+![CSP + LDA full accuracy bar graph](Common%20Spacial%20Patter%20Linear%20Discriminent%20Analysis/IMAGES/CSP-LDA-overall-accuracies.png)
+
 
 ### Accuracy table
 
@@ -504,9 +503,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FBCSP + LDA full accuracy bar graph](assets/bargraphs/fbcsp-lda-accuracy-bar-graph.png)
-```
+
+![FBCSP + LDA full accuracy bar graph](Common%20Spacial%20Patter%20Linear%20Discriminent%20Analysis/IMAGES/FB-CSP-LDA-overall-accuracies.png)
+
 
 ### Accuracy table
 
@@ -560,14 +559,6 @@ flowchart LR
 ## 7. Improved / Regularized CSP + LDA
 
 **Average performance:** train `92.90%`, CV `89.56%`, unseen test `86.44%`.
-
-### Accuracy bar graph
-
-Add the method-specific full accuracy bar graph here after exporting it from the notebook:
-
-```markdown
-![Improved CSP + LDA full accuracy bar graph](assets/bargraphs/improved-csp-lda-accuracy-bar-graph.png)
-```
 
 ### Accuracy table
 
@@ -626,9 +617,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FB-PCA + TVLDA full accuracy bar graph](assets/bargraphs/fb-pca-tvlda-accuracy-bar-graph.png)
-```
+
+![FB-PCA + TVLDA full accuracy bar graph](Principal%20Component%20analysis/IMAGES/PCA+TVLDA+Filterbanks.png)
+
 
 ### Accuracy table
 
@@ -689,9 +680,7 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![PCA + TVLDA full accuracy bar graph](assets/bargraphs/pca-tvlda-accuracy-bar-graph.png)
-```
+![FB-PCA + TVLDA full accuracy bar graph](Principal%20Component%20analysis/IMAGES/PCA+TVLDA.png)
 
 ### Accuracy table
 
@@ -752,9 +741,8 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FB-MDM full accuracy bar graph](assets/bargraphs/fb-mdm-accuracy-bar-graph.png)
-```
+
+![FB-MDM full accuracy bar graph](Minimum%20Distance%20To%20mean/IMAGES/FBMDRM-OVERALL-ACCURACIES.png)
 
 ### Accuracy table
 
@@ -813,9 +801,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![MDRM full accuracy bar graph](assets/bargraphs/mdrm-accuracy-bar-graph.png)
-```
+
+![MDRM full accuracy bar graph](Minimum%20Distance%20To%20mean/IMAGES/MDRM-OVERALL-ACCURACIES.png)
+
 
 ### Accuracy table
 
@@ -874,9 +862,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![FB-PCA + LDA full accuracy bar graph](assets/bargraphs/fb-pca-lda-accuracy-bar-graph.png)
-```
+
+![FB-PCA + LDA full accuracy bar graph](Principal%20Component%20analysis/IMAGES/PCA+LDA+Filterbanks.png)
+
 
 ### Accuracy table
 
@@ -935,9 +923,9 @@ flowchart LR
 
 Add the method-specific full accuracy bar graph here after exporting it from the notebook:
 
-```markdown
-![PCA + LDA full accuracy bar graph](assets/bargraphs/pca-lda-accuracy-bar-graph.png)
-```
+
+![PCA + LDA full accuracy bar graph](Principal%20Component%20analysis/IMAGES/PCA+LDA.png)
+
 
 ### Accuracy table
 
@@ -1060,11 +1048,13 @@ stroke-rehab/
 │   ├── P1_post_test.mat
 │   ├── ...
 │
-├── notebooks/
-│   ├── Filter-Bank Tangent Space Linear Discriminant Analysis.ipynb
-│   ├── Tangent Space Linear Discriminant Analysis.ipynb
-│   └── ...
-│
+├── Common Spacial Patter Linear Discriminent Analysis/
+├── Documents/
+├── Images/
+├── Minimum Distance To mean/
+├── Principal Component analysis/
+├── Tangent Space linear discriminent Analysis/
+├── LICENSE
 └── README.md
 ```
 
